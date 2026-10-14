@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Nama Lengkap | Portofolio & Blog Mahasiswa</title>
-<meta name="description" content="Portofolio dan blog belajar Nama Lengkap, mahasiswa semester 5 Teknik Informatika.">
+<title>Ahmad Alvin Ramdani | Portofolio & Blog Mahasiswa Sistem Informasi</title>
+<meta name="description" content="Portofolio dan blog belajar Ahmad Alvin Ramdani, mahasiswa semester 5 Sistem Informasi.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap" rel="stylesheet">
@@ -55,8 +55,8 @@ nav a:hover{background:var(--surface)}
 /* Sections */
 section{padding:56px 0;border-top:1px solid var(--line)}
 section h2{font-size:clamp(1.7rem,4vw,2.3rem);margin-bottom:28px}
-.about{display:grid;grid-template-columns:1fr 2fr;gap:40px}
-.about .photo{aspect-ratio:1/1;max-width:260px;border-radius:50%;background:var(--surface);border:2px solid var(--line);display:grid;place-items:center;font-family:var(--display);font-size:3.2rem;font-weight:700;color:var(--accent)}
+.about{display:grid;grid-template-columns:1fr 2fr;gap:40px;align-items:center}
+.about .photo{width:100%;max-width:260px;aspect-ratio:1/1;border-radius:50%;object-fit:cover;border:3px solid var(--accent);box-shadow: 0 4px 12px rgba(0,0,0,0.1)}
 .about p{margin:0 0 16px;max-width:62ch}
 
 .skills{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:32px}
@@ -109,7 +109,7 @@ footer{padding:32px 0 48px;border-top:1px solid var(--line);color:var(--muted);f
 
 <header>
   <div class="wrap">
-    <a class="brand" href="#atas">Nama Lengkap</a>
+    <a class="brand" href="#atas">Ahmad Alvin Ramdani</a>
     <nav aria-label="Navigasi utama">
       <a href="#tentang">Tentang</a>
       <a href="#keahlian">Keahlian</a>
@@ -125,14 +125,14 @@ footer{padding:32px 0 48px;border-top:1px solid var(--line);color:var(--muted);f
 
   <!-- ====== HERO ====== -->
   <div class="hero">
-    <h1>Mahasiswa yang belajar membangun web.</h1>
-    <p>Halo, saya Nama Lengkap, mahasiswa Teknik Informatika di Nama Universitas. Di sini saya menyimpan proyek kuliah dan catatan belajar saya selama semester 5.</p>
+    <h1>Merancang Sistem & Membangun Solusi Web.</h1>
+    <p>Halo, saya <strong>Ahmad Alvin Ramdani</strong>, mahasiswa Sistem Informasi semester 5. Di sini tempat saya mendokumentasikan proyek perkuliahan, analisis sistem, dan catatan belajar.</p>
     <div class="btns">
       <a class="btn main" href="#proyek">Lihat proyek</a>
       <a class="btn" href="#blog">Baca catatan</a>
     </div>
     <div class="progress">
-      <p>Perjalanan kuliah</p>
+      <p>Perjalanan Kuliah</p>
       <div class="seg" role="img" aria-label="Semester 5 dari 8 sedang berjalan">
         <span class="done" style="--i:0"></span><span class="done" style="--i:1"></span><span class="done" style="--i:2"></span><span class="done" style="--i:3"></span><span class="now" style="--i:4"></span><span></span><span></span><span></span>
       </div>
@@ -142,14 +142,13 @@ footer{padding:32px 0 48px;border-top:1px solid var(--line);color:var(--muted);f
 
   <!-- ====== TENTANG ====== -->
   <section id="tentang">
-    <h2>Tentang saya</h2>
+    <h2>Tentang Saya</h2>
     <div class="about">
-      <div class="photo" aria-hidden="true">NL</div>
-      <!-- GANTI: ganti div.photo dengan <img src="foto.jpg" alt="Foto Nama Lengkap" class="photo"> jika punya foto -->
+      <img src="profile.jpg" alt="Foto Ahmad Alvin Ramdani" class="photo">
       <div>
-        <p>Saya mahasiswa semester 5 program studi Teknik Informatika. Saya tertarik pada pengembangan web, basis data, dan cara membuat aplikasi yang mudah dipakai orang awam.</p>
-        <p>Selain kuliah, saya aktif di organisasi kampus dan suka menulis ulang materi kuliah dengan bahasa sendiri. Cara itu membantu saya benar-benar paham, bukan sekadar hafal.</p>
-        <p>Saat ini saya mencari kesempatan magang di bidang pengembangan web.</p>
+        <p>Saya adalah mahasiswa semester 5 program studi <strong>Sistem Informasi</strong>. Memiliki ketertarikan mendalam pada pengembangan web, analisis basis data, dan perancangan arsitektur sistem.</p>
+        <p>Bagi saya, Sistem Informasi adalah jembatan antara kebutuhan bisnis dan teknologi. Saya terbiasa menyederhanakan masalah kompleks menjadi solusi perangkat lunak yang terstruktur dan mudah digunakan.</p>
+        <p>Saat ini saya sedang terbuka untuk kesempatan magang atau kolaborasi di bidang Web Development & System Analysis.</p>
       </div>
     </div>
   </section>
@@ -159,107 +158,92 @@ footer{padding:32px 0 48px;border-top:1px solid var(--line);color:var(--muted);f
     <h2>Keahlian</h2>
     <div class="skills">
       <div>
-        <h3>Pengembangan web</h3>
-        <ul><li>HTML & CSS</li><li>JavaScript dasar</li><li>PHP & Laravel (belajar)</li><li>Git & GitHub</li></ul>
+        <h3>Pengembangan Web</h3>
+        <ul><li>HTML, CSS & JavaScript</li><li>PHP & Web Development</li><li>Git & GitHub Version Control</li><li>Responsive Web Design</li></ul>
       </div>
       <div>
-        <h3>Data & sistem</h3>
-        <ul><li>MySQL & perancangan basis data</li><li>Python untuk analisis sederhana</li><li>UML & analisis kebutuhan</li></ul>
+        <h3>Database & Sistem</h3>
+        <ul><li>MySQL, PostgreSQL & Oracle SQL</li><li>Perancangan ERD & Normalisasi</li><li>Analisis Sistem & Diagram UML</li></ul>
       </div>
       <div>
-        <h3>Kerja sama</h3>
-        <ul><li>Presentasi proyek kelompok</li><li>Dokumentasi teknis</li><li>Manajemen waktu tugas besar</li></ul>
+        <h3>Soft Skills</h3>
+        <ul><li>Manajemen Proyek Perangkat Lunak</li><li>Dokumentasi Teknis</li><li>Problem Solving & Kerja Tim</li></ul>
       </div>
     </div>
   </section>
 
   <!-- ====== PROYEK ====== -->
-  <!-- GANTI: ubah judul, deskripsi, tag, dan link sesuai proyek kuliah Anda. Salin satu blok .proj untuk menambah proyek. -->
   <section id="proyek">
-    <h2>Proyek kuliah</h2>
+    <h2>Proyek Kuliah</h2>
 
     <article class="proj">
       <div class="meta">Pemrograman Web<br>Semester 5, 2026</div>
       <div>
-        <h3>Sistem Peminjaman Ruang Kelas</h3>
-        <p>Aplikasi web untuk memesan ruang kelas dan melihat jadwal yang kosong. Saya mengerjakan rancangan basis data dan halaman pemesanan.</p>
-        <ul class="tags"><li>PHP</li><li>MySQL</li><li>Bootstrap</li></ul>
-        <a href="#">Lihat kode di GitHub</a>
+        <h3>Sistem Informasi Manajemen Inventory</h3>
+        <p>Aplikasi berbasis web untuk mengelola stok barang, mencatat transaksi masuk/keluar, dan mencetak laporan secara real-time.</p>
+        <ul class="tags"><li>PHP</li><li>MySQL</li><li>HTML/CSS</li></ul>
+        <a href="https://github.com/username/project1" target="_blank">Lihat Kode di GitHub</a>
       </div>
     </article>
 
     <article class="proj">
       <div class="meta">Basis Data Lanjut<br>Semester 5, 2026</div>
       <div>
-        <h3>Basis Data Toko Buku Kampus</h3>
-        <p>Perancangan basis data lengkap, dari ERD sampai normalisasi dan query laporan penjualan bulanan.</p>
-        <ul class="tags"><li>MySQL</li><li>ERD</li><li>Normalisasi</li></ul>
-        <a href="#">Baca laporan proyek</a>
+        <h3>Perancangan Basis Data Toko Online</h3>
+        <p>Perancangan struktur basis data komprehensif mulai dari ERD, tahapan normalisasi hingga optimasi query database SQL.</p>
+        <ul class="tags"><li>MySQL</li><li>Relational DB</li><li>ERD</li></ul>
+        <a href="#">Baca Laporan Proyek</a>
       </div>
     </article>
 
     <article class="proj">
-      <div class="meta">Interaksi Manusia & Komputer<br>Semester 5, 2026</div>
+      <div class="meta">Analisis & Perancangan Sistem<br>Semester 5, 2026</div>
       <div>
-        <h3>Redesain Aplikasi Perpustakaan</h3>
-        <p>Studi kegunaan dengan 8 responden, lalu prototipe baru yang memangkas langkah peminjaman buku dari 7 menjadi 4.</p>
-        <ul class="tags"><li>Figma</li><li>Usability testing</li></ul>
-        <a href="#">Lihat prototipe</a>
+        <h3>Modelling Sistem Informasi Perpustakaan</h3>
+        <p>Pembuatan dokumen spesifikasi kebutuhan sistem beserta diagram UML (Use Case, Activity, Sequence Diagram).</p>
+        <ul class="tags"><li>UML</li><li>System Analysis</li><li>Figma</li></ul>
+        <a href="#">Lihat Dokumentasi</a>
       </div>
     </article>
   </section>
 
   <!-- ====== BLOG ====== -->
-  <!-- GANTI: tiap <details class="post"> adalah satu tulisan. Atur data-kat sesuai tombol filter. -->
   <section id="blog">
-    <h2>Catatan belajar</h2>
+    <h2>Catatan Belajar</h2>
     <div class="filters" role="group" aria-label="Filter kategori">
       <button type="button" data-f="semua" aria-pressed="true">Semua</button>
       <button type="button" data-f="web" aria-pressed="false">Web</button>
-      <button type="button" data-f="data" aria-pressed="false">Basis data</button>
+      <button type="button" data-f="data" aria-pressed="false">Basis Data</button>
       <button type="button" data-f="refleksi" aria-pressed="false">Refleksi</button>
     </div>
 
     <details class="post" data-kat="web">
       <summary>
         <time datetime="2026-10-05">5 Okt 2026</time>
-        <div><h3>Memahami Flexbox lewat satu halaman portofolio</h3><span class="cat">Web, 4 menit baca</span></div>
+        <div><h3>Membangun Tampilan Web Responsif Tanpa Framework</h3><span class="cat">Web, 4 menit baca</span></div>
       </summary>
       <div class="body">
-        <p>Awalnya saya bingung kenapa elemen tidak mau sejajar. Ternyata saya lupa bahwa Flexbox bekerja pada elemen induk, bukan pada anak yang ingin diatur.</p>
-        <p>Setelah mencoba beberapa kali, saya mencatat tiga properti yang paling sering dipakai: display, justify-content, dan align-items.</p>
+        <p>Mengatur tata letak menggunakan CSS Grid dan Flexbox murni memberikan kontrol penuh atas performa web tanpa bergantung pada framework besar.</p>
       </div>
     </details>
 
     <details class="post" data-kat="data">
       <summary>
         <time datetime="2026-09-22">22 Sep 2026</time>
-        <div><h3>Normalisasi tanpa pusing: contoh dari data toko buku</h3><span class="cat">Basis data, 6 menit baca</span></div>
+        <div><h3>Pentingnya Normalisasi Database untuk Mencegah Redundansi</h3><span class="cat">Basis Data, 6 menit baca</span></div>
       </summary>
       <div class="body">
-        <p>Normalisasi terasa abstrak sampai saya mencoba pada tabel penjualan yang berantakan. Memecah satu tabel besar menjadi tiga tabel kecil membuat data tidak lagi berulang.</p>
-        <p>Di tulisan ini saya tunjukkan tiap tahap dari 1NF sampai 3NF dengan contoh nyata.</p>
+        <p>Penerapan bentuk normalisasi 1NF hingga 3NF sangat krusial dalam menjamin integritas data dan efisiensi query pada sistem berskala besar.</p>
       </div>
     </details>
 
     <details class="post" data-kat="refleksi">
       <summary>
         <time datetime="2026-09-10">10 Sep 2026</time>
-        <div><h3>Apa yang saya pelajari dari kerja kelompok proyek web</h3><span class="cat">Refleksi, 5 menit baca</span></div>
+        <div><h3>Catatan Pembelajaran Selama Semester 5 Sistem Informasi</h3><span class="cat">Refleksi, 5 menit baca</span></div>
       </summary>
       <div class="body">
-        <p>Konflik kode di Git ternyata lebih mudah diselesaikan kalau tim sepakat pada aturan cabang sejak awal. Kami belajar itu dengan cara yang agak mahal.</p>
-        <p>Saya juga belajar bahwa menulis README yang jelas menghemat banyak pertanyaan di grup chat.</p>
-      </div>
-    </details>
-
-    <details class="post" data-kat="web">
-      <summary>
-        <time datetime="2026-08-28">28 Agu 2026</time>
-        <div><h3>Mengunggah situs pertama ke GitHub Pages</h3><span class="cat">Web, 3 menit baca</span></div>
-      </summary>
-      <div class="body">
-        <p>Langkahnya ternyata singkat: buat repositori, unggah index.html, lalu aktifkan Pages di pengaturan. Situs saya tampil dalam beberapa menit.</p>
+        <p>Semester 5 memberikan pemahaman mendalam tentang bagaimana mengintegrasikan logika pemrograman dengan analisis kebutuhan bisnis secara efektif.</p>
       </div>
     </details>
   </section>
@@ -267,11 +251,11 @@ footer{padding:32px 0 48px;border-top:1px solid var(--line);color:var(--muted);f
   <!-- ====== KONTAK ====== -->
   <section id="kontak" class="contact">
     <h2>Kontak</h2>
-    <p>Saya terbuka untuk magang, kolaborasi proyek, atau sekadar diskusi tentang web. Kirim pesan lewat email atau tautan di bawah.</p>
+    <p>Terbuka untuk diskusi proyek, kolaborasi, atau peluang magang di bidang Sistem Informasi dan Web Development.</p>
     <div class="links">
-      <a class="btn main" href="mailto:nama@email.com">Kirim email</a>
-      <a class="btn" href="https://github.com/username">GitHub</a>
-      <a class="btn" href="https://linkedin.com/in/username">LinkedIn</a>
+      <a class="btn main" href="mailto:alvin@example.com">Kirim Email</a>
+      <a class="btn" href="https://github.com/" target="_blank">GitHub</a>
+      <a class="btn" href="https://linkedin.com/in/" target="_blank">LinkedIn</a>
     </div>
   </section>
 
@@ -279,7 +263,7 @@ footer{padding:32px 0 48px;border-top:1px solid var(--line);color:var(--muted);f
 </main>
 
 <footer>
-  <div class="wrap">&copy; 2026 Nama Lengkap. Dibuat untuk tugas mata kuliah semester 5.</div>
+  <div class="wrap">&copy; 2026 Ahmad Alvin Ramdani. Portofolio Tugas Mahasiswa Sistem Informasi.</div>
 </footer>
 
 <script>
